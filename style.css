@@ -7,7 +7,74 @@ ul {
   display: flex;
   gap: 30px;
 }
-hr {
+body {
+  background-color: #f8f2fc;
+}
+.intro1 {
+  color: #33266f;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  font-size: 50px;
+}
+.intro2 {
+  color: #9c31ee;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+.introparah {
+  color: #362866;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: small;
+}
+button {
+  height: 30px;
+  width: 120px;
+  border-radius: 50px;
+}
+.btn-1 {
+  background-color: #35276e;
+  color: white;
+}
+.btn-2 {
+  background-color: transparent;
+  color: #35276e;
+  border-color: #35276e;
+}
+.media-content {
+  color: #9c31ee;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+.hero-img-container {
+  background-color: #a747f0;
+  width: 1000px;
+  height: 650px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.home-subcontainer {
+  display: flex;
+  justify-content: space-evenly;
+}
+.content {
+  width: 90%;
+  margin: 10%;
+  margin-left: 20%;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+.media-logo {
+  display: flex;
+  justify-content: center;
+}
+.hero-img1 {
+  margin-top: -50px;
+  margin-left: 50px;
 }
